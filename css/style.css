@@ -1,0 +1,875 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ol,ul{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,span,p,a,ol,ul{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body{
+    background: #ffffff;
+}
+/* All common css End */
+
+/* Header Part Start */
+.top_header{
+    background: #000;
+    height: 55px;
+}
+.top_header_icon a{
+    margin-right: 8px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    line-height: 55px;
+}
+.top_header_icon a i{
+    font-size: 15px;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #000;
+    background: #fff;
+}
+.dropdown, .dropleft, .dropright, .dropup {
+	top: -2px;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+	color: #0769ad;
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+    
+}
+.btn{
+    padding: 3px 7px 3px 5px;
+    line-height: 1.4;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.btn-secondary.focus, .btn-secondary:focus {
+	color: #0769ad;
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+	box-shadow: 0 0 0 0;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0;
+}
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 0px;
+	padding: 0px 0px 0px 0px;
+	margin: -1px 0px 0px 0px;
+	font-size: 14px;
+	color: #0769ad;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+	border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.dropdown-item {
+	padding: 3px 25px 4px 7px;
+	color: #0769ad;
+	font-size: 14px;
+	text-align: left;
+}
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0,0,0,.6);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Header Part End */
+
+/* Banner Part start */
+#banner{
+    background: url(../images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    text-align: center;
+    position: relative;
+}
+#banner .banner_overly{
+    
+    background: rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    justify-content: center;
+    align-items: center; 
+    display: flex; 
+    
+}
+#banner .banner-text h3{
+    color: #ffffff;
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 9px;
+    margin-top: 30px;
+}
+#banner .banner-text p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-bottom: 25px;
+}
+#banner .banner-text a{
+    display: inline-block;
+    border: 2px solid #fe5400;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: .3em 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#banner .banner-text .banner-text_btn_frist_Child{
+    background: #fe5400;
+}
+/* Banner Part End */
+
+/* OmegaPoint Part Start */
+#omegaPoint{
+    background: url(../images/gradient.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#omegaPoint .omegaPoint_title h3{
+    color: #333;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Hind Siliguri', sans-serif;
+    line-height: 1em;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+#omegaPoint .omegaPoint_video iframe{
+    width: 100%;
+}
+#omegaPoint .omegaPoint_text ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding: 0 0 23px;
+    line-height: 26px;
+}
+#omegaPoint .omegaPoint_text ol li{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+#omegaPoint .omegaPoint_text p{
+    font-size: 14px;
+    color: #000; 
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.et_pb_bottom_inside_divider{
+    opacity: 0;
+}
+/* OmegaPoint Part End */
+
+/* Treatments Part Start */
+#treatments{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#treatments .treatments_title h3{
+    color: #333;
+    font-size: 26px;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-transform: uppercase;
+}
+#treatments .treatments_item{
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    border: 1px solid #d6d6d6;
+    padding-top: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 70px;
+    margin-bottom: 20px;
+    transition: all linear .2s;
+}
+#treatments .treatments_item:hover{
+    border: 1px solid tomato;
+}
+#treatments .treatments_item p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Hind Siliguri', sans-serif;
+    line-height: 5px;
+    transition: all linear .2s;
+}
+#treatments .treatments_item p:hover{
+    color: tomato;
+}
+#treatments .treatments_item p span {
+	border-radius: 50%;
+	background-color: #f76200;
+	color: white;
+	font-size: 14px;
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+	line-height: 26px;
+	margin-right: 45px;
+    padding-left: 10px;
+}
+/* Treatments Part End */
+
+/* Pricing Part Start */
+#pricing{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #e7eff0 ;
+}
+#pricing .pricing_title h3{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 30px;
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#pricing .pricing_title p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 15px;
+    color: #333;
+    padding-bottom: 60px;
+    line-height: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#pricing .pricing_list{
+    position: relative;
+    border: 1px solid #bebebe;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    height: 530px;
+    transition: all linear .1s;
+    background: #fff;
+    margin-bottom: 100px;
+}
+#pricing .pricing_list:hover{
+    background: #f76200;
+    transform: scale(1.05,1.05);
+    box-shadow: 0 2.8px 2.2px rgba(0,0,0,.034),0 6.7px 5.3px rgba(0,0,0,.048),0 12.5px 10px rgba(0,0,0,.06),0 22.3px 17.9px rgba(0,0,0,.072),0 41.8px 33.4px rgba(0,0,0,.086),0 100px 80px rgba(0,0,0,.12);
+}
+#pricing .pricing_list h4{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600 ;
+    text-transform: uppercase;
+    color: #000000 ;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 23px;
+}
+#pricing .pricing_list h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    color: #f76200;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    transition: all linear .1s;
+}
+#pricing .pricing_list:hover h3{
+    color: #fff;
+}
+#pricing .pricing_list p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000;
+    line-height: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    border-bottom: 1px solid #BEBEBE;
+    transition: all linear .1s;
+}
+#pricing .pricing_list:hover p{
+    color: #fff;
+}
+#pricing .pricing_list ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+    line-height: 26px;
+    padding-top: 15px;
+}
+#pricing .pricing_list ol li{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 40px;
+    line-height: 35px;
+    transition: all linear .1s;
+}
+#pricing .pricing_list:hover ol li{
+    color: #fff;
+}
+#pricing .pricing_btn a{
+    color: #ffffff !important;
+    border-width: 0px !important;
+    border-radius: 5px;
+    background-image: linear-gradient(264deg,#cb410b 0%,#ff4300 100%);
+    background-color: #FFF;
+    padding: .3em 1em !important;
+    display: inline-block;
+    box-shadow: 0 12px 18px -6px rgba(0,0,0,.3);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Hind Siliguri', sans-serif;
+    margin-bottom: 65px;
+}
+#pricing .pricing_doctor_item h3{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #000000 !important;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-bottom: 10px;
+    line-height: 1em;  
+    margin-top: 20px;
+}
+#pricing .pricing_doctor_info{
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    line-height: 1em;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    min-height: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    display: flex;
+    transition: all linear .1s;
+}
+#pricing .pricing_doctor_info:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0 2.8px 2.2px rgba(0,0,0,.034),0 6.7px 5.3px rgba(0,0,0,.048),0 12.5px 10px rgba(0,0,0,.06),0 22.3px 17.9px rgba(0,0,0,.072),0 41.8px 33.4px rgba(0,0,0,.086),0 100px 80px rgba(0,0,0,.12);
+}
+#pricing .pricing_doctor_info .pricing_doctor_pic img{
+    width: 75px;
+    border-radius: 50% 50% 50% 50%;
+}
+#pricing .pricing_doctor_info .pricing_doctor_text{
+    margin-left: 20px;
+}
+#pricing .pricing_doctor_info .pricing_doctor_text h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+}
+#pricing .pricing_doctor_info .pricing_doctor_text p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/* Pricing Part End */
+
+/* Company Part Start */
+#company{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.founder_title h3{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 30px;
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+#company .founder_item{
+    padding-bottom: 45px;
+}
+#company .founder_item img{
+    border-radius: 50% 50% 50% 50%;
+    overflow: hidden;
+    border: 2px solid #e67300;
+    max-width: 50%;
+}
+#company .founder_item h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+    line-height: 1em;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+#company .founder_item p{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #666;
+    line-height: 1.7em;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+#company .founder_item a{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #919191;
+    padding: .3em 1em !important;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.7em;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+#company .company_staff h3{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 30px;
+    color: #333;
+    line-height: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+#company .company_staff_item{
+    display: flex;
+    margin-bottom: 30px;
+}
+#company .company_staff_item .company_staff_pic{
+    display: contents;
+}
+#company .company_staff_item .company_staff_pic img{
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #f76200;
+    border-color: #e06100;
+    width: 110px;
+}
+#company .company_staff_item .company_staff_text{
+    padding-left: 20px;
+}
+#company .company_staff_item .company_staff_text h3{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 22px;
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+#company .company_staff_item .company_staff_text p{
+    font-size: 14px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;    
+}
+/* Company Part End */
+
+/* History Part Start */
+#history{
+    padding-top: 60px;
+    background-image: linear-gradient(180deg,#e5a667 0%,#ffffff 100%) !important;
+}
+.et_pb_bottom_inside_divider{
+    opacity: 1;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDcwLjM1bDMyMC00OS4yNCA2NDAgOTguNDkgMzIwLTQ5LjI1VjE0MEgwVjcwLjM1eiIvPjwvZz48L3N2Zz4=);
+    background-size: 100% 100px;
+    bottom: 0;
+    height: 100px;
+    z-index: 10;
+    transform: rotateX(270deg);
+    position: relative;
+}
+.card{
+    background-color: #fff;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    box-shadow: 0 12px 45px -6px rgba(178,178,178,.3);
+    margin-bottom: 30px;
+}
+.card .card-img-top{
+    border-radius: 15px;
+}
+.card .card-body .card-title{
+    font-family: 'Poppins', sans-serif;
+    color: #e67300;
+    line-height: 72px;
+    font-weight: 500;
+    font-size: 50px;
+}
+.card .card-body .card-text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+.card-body {
+	padding: 10px;
+
+    
+}
+.about-slick-slider{
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 410px;
+    border: 1px solid #333;
+    margin-top: 60px;
+}
+.about-slick-slider ul li button{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    font-size: 0px;
+    background: none;
+    border: 1px solid #b7b2ab;
+    background: #fbaa33;
+}
+.about-slick-slider ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.about-slick-slider ul{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.about-slick-slider ul .slick-active button{
+    border: none;
+    background: #e67300;
+}
+.about_text h3{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    text-transform: capitalize;
+}
+.about_text p{
+    font-size: 14px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.7em;
+}
+/* History Part End */
+
+/* Post Part Start */
+#post{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#post .card-title{
+    font-size: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.3em;
+    padding-top: 15px;
+}
+#post .card-text{
+    font-size: 13px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    color: #333;
+}
+#post .card{
+    padding: 5px;
+}
+#post .pricing_btn a{
+    color: #ffffff !important;
+    border-radius: 5px;
+    background-image: linear-gradient(264deg,#cb410b 0%,#ff4300 100%);
+    background-color: #FFF;
+    padding: .3em 1em !important;
+    display: inline-block;
+    box-shadow: 0 12px 18px -6px rgba(0,0,0,.3);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Hind Siliguri', sans-serif;
+    margin-bottom: 35px;
+    margin-top: 25px;
+    width: 300px;
+}
+/* post Part End */
+
+/* Gellary Part Start */
+#gellary{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #e7eff0 ;
+}
+.team-left {
+	position: absolute;
+	background: #fff;
+	height: 50px;
+	width: 50px;
+	font-size: 30px;
+	color: #000;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	text-align: center;
+	padding-top: 12px;
+	cursor: pointer;
+	z-index: 1;
+}
+.team-right {
+	position: absolute;
+	background: #fff;
+	height: 50px;
+	width: 50px;
+	font-size: 30px;
+	color: #000;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+	text-align: center;
+	padding-top: 12px;
+	cursor: pointer;
+}
+.teamSlider ul li button{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    font-size: 0px;
+    background: none;
+    border: 1px solid #b7b2ab;
+    background: #000;
+    outline: none;
+}
+.teamSlider ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.teamSlider ul{
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.teamSlider ul .slick-active button{
+    border: none;
+    background: #e67300;
+}
+/* Gellary Part End */
+
+
+/* Sponser Part Start */
+#sponser{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* Sponser Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer Part End*/
+.col_white_amrc { color:#FFF;}
+footer { 
+    width:100%; 
+    background-color:#2B2F3A; 
+    min-height:250px; 
+    padding:10px 0px 25px 0px ;
+}
+.pt2 { 
+    padding-top:40px ; 
+    margin-bottom:20px ;
+}
+footer p { 
+    font-size:13px;
+    color:#e8eff0 ; 
+    padding-bottom:0px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.mb10 { 
+    padding-bottom:10px ;
+}
+.footer_ul_amrc { 
+    margin:0px ; 
+    list-style-type:none ; 
+    font-size:16px; 
+    padding:0px 0px 10px 0px ; 
+    
+}
+.footer_ul_amrc li {
+    padding:0px 0px 10px 0px;
+    color: #e8eff0;
+    font-weight: 600;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.fleft { float:left;}
+.padding-right {
+    padding-right:10px; 
+}
+
+.footer_ul2_amrc {
+    margin:0px; 
+    list-style-type:none; 
+    padding:0px;}
+.footer_ul2_amrc li p { 
+    display:table; 
+}
+.footer_ul2_amrc li a { 
+    text-decoration:none;
+    color: #e8eff0;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.footer_ul2_amrc li i {
+	margin-top: 5px;
+	height: 30px;
+	width: 30px;
+	background: #fff;
+	color: #000;
+	border-radius: 50%;
+	padding-left: 10px;
+	line-height: 27px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.bottom_border {
+    padding-top:20px;  
+    padding-bottom:20px;
+}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { 
+    display:inline;
+}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+/* Footer Part End */
+
+
+
+
+/* -------------------- */
+/* Routine page */
+/* -------------------- */
+
+/* Routine Part Start */
+#routine{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.routine_items{
+    display: flex;
+    overflow-x: auto;
+}
+.routine_item{
+    min-width: 150px;
+    height: 100px;
+    border: 1px solid #ccc;
+
+}
+/* Routine Part End */
